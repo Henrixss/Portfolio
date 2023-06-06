@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+
+.hero-image {
+    background-image: url('images/greenleafs-rodionkutsaev-unsplash.jpg');
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#cabecalho{
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+
+    background-image: linear-gradient(to bottom, #00000079, #00000079, #00000079, #00000065, #00000000);
+    width: 100%;
+    height: auto;
+}
+
+#siglas_nome{
+    color: whitesmoke;
+    padding-left:2vw;
+}
+
+#siglas_nome > span{
+    padding-left: 6px;
+    border-left: 2px solid whitesmoke;
+}
+
+#H{
+    color: darkgoldenrod;
+}
+
+#barra_de_navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2vw;
+}
+
+.itens_nav li{
+    vertical-align: middle;
+    display: inline-block;
+    padding: 10px;
+}
+
+.botoes_nav{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.botoes_nav:hover{
+    border: 2px solid whitesmoke;
+    transition: 600ms ease-in-out;
+}
+
+#introducao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#introducao > div{
+    color: whitesmoke;
+    font-size: xx-large;   
+}
+
+#linha1{
+    font-size: 10vh;
+}
+
+#linha2{
+    font-size: 14vh;
+}
+
+#linha3{
+    font-size: 8vh;
+}
