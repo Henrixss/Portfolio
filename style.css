@@ -87,3 +87,44 @@ body{
 #linha3{
     font-size: 8vh;
 }
+
+#projects{
+    height: 100vh;
+    background-color: #00070D;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#contact{
+    height: 100vh;
+    background-color: #00070D;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#contact h1, h2{
+    text-align: center;
+}
+
+#logos{
+    width: 32vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logos img{
+    border-radius: 54%;
+}
+
+#logos img:hover{
+    background-color: #032F20;
+    transition: 400ms ease-in-out;
+}
